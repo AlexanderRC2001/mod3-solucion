@@ -1,0 +1,80 @@
+
+#contenedor{
+position: relative;
+
+}
+h2,h3,h4{
+
+font-size: 30px;
+text-transform: uppercase;
+padding-top: 20px;
+background-color: rgb(138, 141, 135);
+
+opacity: 0.9;
+}
+#caja1,#caja2,#caja3{
+
+
+text-align: center;
+height: 200px;
+margin-top: 50px;
+width: auto;
+padding: 10px,10px,10px;
+font-size: 24px;
+box-sizing:initial;
+background-color: rgb(173, 179, 197);
+padding-bottom: 20px;
+}
+#caja1{
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 290px;
+  padding-bottom: 50px;
+ 
+ 
+}
+#caja2{
+  margin-left: 100px;
+  margin-right: 100px;
+ 
+}
+
+#caja3{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+#caja1 p{
+  box-sizing: content-box;
+width: 100%;
+
+
+
+
+}
+
+
+@media (max-width:991px) {
+  a {
+   text-align: center;
+    text-transform: uppercase;
+  }
+  #caja1{
+   
+    height: 360px;
+    padding-bottom: 30px;
+    overflow-x: hidden;
+  }
+  #caja2{
+   
+    height: 360px;
+    padding-bottom: 30px;
+    overflow-x: hidden;
+  }
+  #caja3{
+   
+    height: 360px;
+    padding-bottom: 30px;
+    overflow-x: hidden;
+  }
+
+}
